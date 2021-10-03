@@ -19,6 +19,8 @@ class GPT3AnswerBot
     Risposta:
     "
     msg = format_msg msg: msg
+    msg.strip!
+    p msg
     answer = openai_complete_code text: msg
     answer
   end
@@ -26,7 +28,7 @@ class GPT3AnswerBot
   private
 
   def openai_complete_code(text:)
-    resp = GPT3DavinciCodex.new(input: text).complete
+    resp = GPT3Davinci.new(input: text).complete
     resp
   end
 
