@@ -1,6 +1,6 @@
-# AIOverflow
+# AI Playground
 
-### GPT3-based Stackoverflow-like platform
+### AI Playground - GPT3-based
 
 
 
