@@ -1,8 +1,10 @@
 # AI Playground
 
-### AI Playground - GPT3-based
+### AI Playground - GPT3-based ai playground
+
+API: OpenAI Davinci
 
 
+Examples:
 
-
-API: OpenAI Codex
+- Language: italian - Bike expert (race gear / repairs) - few-shots-learning
