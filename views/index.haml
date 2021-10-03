@@ -13,12 +13,11 @@
     .column
       .card
         .card-content
-          %h1 Ask a Question
-          %p e.g. ( "how to split a string in ruby?" or "how to parse time in ruby?" etc. )
+          %h1 Fai una domanda all'esperto ciclista
           %form{ action: "/questions", method: "post" }
             %textarea.textarea.question{ name: "question" }
             .s10
-            %input.button.is-primary.is-large{ type: "submit", value: "Submit" }
+            %input.button.is-primary.is-large{ type: "submit", value: "Domanda" }
 
 / response - question
 - if question.question
@@ -28,11 +27,11 @@
       .column
         .card
           .card-content
-            %h1 Answer
+            %h1 Risposta
             %p to question: #{question.question}
             %p.answer #{question.answer}
             .s30
-            %p Model Output: #{question.answer_orig}
+            -# %p Model Output: #{question.answer_orig}
       .column.is-one-fifth
 
 
