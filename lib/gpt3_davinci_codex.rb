@@ -1,4 +1,4 @@
-class GPT3DavinciCodex
+class GPT3Davinci
 
   attr_reader :input
 
@@ -6,9 +6,8 @@ class GPT3DavinciCodex
 
   MAX_TOKENS = 60
   STOP_TOKENS = [ # TODO: extract as options
-    "\n# Q:",
-    "\n#",
-    "\n# A:",
+    "Risposta:",
+    "Domanda:",
   ]
 
   def initialize(input:)
