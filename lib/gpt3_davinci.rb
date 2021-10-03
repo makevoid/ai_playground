@@ -2,7 +2,7 @@ class GPT3Davinci
 
   attr_reader :input
 
-  ENGINE = "davinci-codex" # code generation / stackoveflow-like answers / code completion
+  ENGINE = "davinci" # code generation / stackoveflow-like answers / code completion
 
   MAX_TOKENS = 300
   STOP_TOKENS = [ # TODO: extract as options
@@ -25,6 +25,11 @@ class GPT3Davinci
         prompt: input,
         max_tokens: MAX_TOKENS,
         stop: STOP_TOKENS,
+        # opts:
+        temperature:       0.6,
+        top_p:             1,
+        frequency_penalty: 0,
+        presence_penalty:  0,
       },
     )
     resp = response.body

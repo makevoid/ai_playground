@@ -20,7 +20,7 @@ class GPT3AnswerBot
     "
     msg = format_msg msg: msg
     msg.strip!
-    p msg
+    # p msg
     answer = openai_complete_code text: msg
     answer
   end
