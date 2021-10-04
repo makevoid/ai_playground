@@ -4,9 +4,8 @@ class GPT3Davinci
 
   ENGINE = "davinci" # code generation / stackoveflow-like answers / code completion
 
-  MAX_TOKENS = 300
+  MAX_TOKENS = 250
   STOP_TOKENS = [ # TODO: extract as options
-    "Risposta:",
     "Domanda:",
   ]
 
@@ -34,6 +33,8 @@ class GPT3Davinci
     )
     resp = response.body
     resp = JSON.parse resp
+    # puts "RESP RAW:"
+    # p resp
     resp = resp.f "choices"
     resp = resp.f 0
     resp = resp.f "text"
