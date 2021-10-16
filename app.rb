@@ -56,8 +56,11 @@ class App < Roda
         question = ExtractQuestion.(question: question)
         bot = GPT3AnswerBot.new question: question
         answer = bot.answer
+        wavenet = WaveNet.new text: answer
+        wavenet.synthesize_speech
         question = Question.new question: question, answer: answer
-        view "index", locals: { question: question }
+        audio_path_public = wavenet.audio_path_public
+        view "index", locals: { question: question, audio_path_public: audio_path_public }
       end
 
       r.get do

@@ -1,12 +1,3 @@
-/ get new random question section with button and textarea
--# .section
--#   .columns
--#     .column
--#       %h1 New Question
--#       %form{ action: "/questions", method: "post" }
--#         %input{ type: "submit", value: "Submit" }
-
-
 / ask question form with textarea and button
 .section
   .columns
@@ -30,22 +21,11 @@
             %h1 Risposta
             %p alla domanda: #{question.question}
             %p.answer #{question.answer}
-            .s30
+            .s20
+            %p.is-size-7 (clicca in qualsiasi punto per ascoltare il ciclista)
+            .s20
             -# %p Model Output: #{question.answer_orig}
       .column.is-one-fifth
 
-
-/ get all questions
--# .section
--#   .columns
--#     .column
--#       %h1 Questions
--#       %ul
--#         - @questions && @questions.each do |question|
--#           / render a card
--#           %li
--#             .card
--#               .card-content
--#                 %h3
--#                   %a{ href: "/questions/#{question.id}" } #{question.title}
--#                 %p #{question.body}
+  %audio.audio{ autoplay: "true", controls: true, loop: false }
+    %source{ src: audio_path_public,  type: "audio/mp3" }

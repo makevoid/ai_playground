@@ -4,7 +4,7 @@ class GPT3Davinci
 
   ENGINE = "davinci" # code generation / stackoveflow-like answers / code completion
 
-  MAX_TOKENS = 250
+  MAX_TOKENS = 200
   STOP_TOKENS = [ # TODO: extract as options
     "Domanda:",
   ]

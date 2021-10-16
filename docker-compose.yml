@@ -10,3 +10,4 @@ services:
     environment:
       RACK_ENV: production
       DOCKER: '1'
+      # OPENAI_TOKEN: "..."

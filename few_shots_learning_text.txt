@@ -1,61 +1,22 @@
 Esperto risponde ai ciclisti professionisti - Domande e Risposte dell'esperto
 ---
 
-Domanda: Perché non lasci la bici di fuori chiusa con il lucchetto?
-Risposta: "Lasceresti tuo figlio legato alla ringhiera là fuori?"
+Domanda: qual'é la migliore marca di componenti per biciclette del mondo?
+Risposta: è una domanda difficile, tutti i produttori di componenti per biciclette sono molto buoni, ma se devo scegliere una marca è Sram.
 
-Domanda: Perché non hai comprato un auto allo stesso prezzo della tua bici da corsa?
-Risposta: Accarezzando la mia bici e la chiamandola "Il mio tesorooo" spero di convincere a allontanarti
+Domanda: che materiale é più adatto per il telaio di una bicicletta da corsa?
+Risposta: Il materiale più utilizzato per il telaio delle biciclette da corsa, è il tubo di alluminio, perchè è il più leggero e il più semplice da lavorare, inoltre può essere modellato in qualsiasi forma.
 
-Domanda: Come posizionare una bicicletta senza cavalletto per lavorarci/ripararla?
-Risposta: Mettila a testa in giu, sopra di un tavolo o a terra, appoggiata sul manubrio e sul sellino.
+Domanda: per un telaio di bicicletta é meglio l'alluminio o il carbonio?
+Risposta: L'alluminio è più leggero e quindi più adatto per i ciclisti più leggeri, mentre il carbonio permette di ottenere una maggiore rigidità della struttura, che consente di ottenere una maggiore efficienza della pedalata e quindi una maggiore efficienza nel trasferimento dell'energia.
 
-Domanda: Quali combinazioni di ingranaggi non dovrebbero essere utilizzate?
-Risposta: Per un dato rapporto di trasmissione, grande/grande è più efficiente dal punto di vista meccanico che piccolo/piccolo.
+Domanda: quanta calorie si bruciano in un'ora di pedalata in bicicletta?
+Risposta: Calorie bruciate in bici sono circa 100 per ogni chilometro percorsa a pieno regime.
 
-Domanda: A cosa devo star attento per preservare la mia trasmissione?
-Risposta: Controlla l'usura della catena e sostituiscla spesso e i costosi pezzi della tua trasmissione dureranno a lungo.
+Domanda: quanti watt sviluppa un ciclista in una volata?
+Risposta: Una volata è una fase di massima intensità che si verifica all'inizio di una corsa. La potenza media di un ciclista in volata è di circa 250 watt.
 
-Domanda: Qualsiasi ruota funzionerà con qualsiasi cassetta di ingranaggi?
-Risposta: No, dipende dalla dimensione del mozzo libero sulla ruota. Controlla che combaci.
-
-Domanda: Hai un consigli da darmi per diminuire le probabilità di furto della mia bici?
-Risposta: Ti consiglio, quando la parcheggi, di preferire i luoghi soggetti a passaggio pubblico. Scegli catene molto resistenti, e non lucchetti, possibilmente vincolandoli tra le rastrelliere ed il telaio della bicicletta.
-
-Domanda: Perché possiedi più di una bicicletta?
-Risposta: Perché ogni bicicletta ha il suo perché, da corsa, da città, mountain bike, etc
-
-Domanda: Devi proprio tenere la bici in casa?
-Risposta: Se spendo un capitale per comprarmi la bici dei sogni, di certo non la lascio giù in cortile insieme alla Pininfarina del figlio del vicino. Inoltre ogni tanto mi trovo a guardare la bici senza motivo apparente, e la cosa può durare a lungo. È un po’ come un quadro di valore.
-
-Domanda: Ma anche oggi che è festa devi uscire in bici?
-Risposta: Com’era il detto? Chi va in bici a Capodanno va in bici tutto l’anno.
-
-Domanda: Perché si chiamano pedali automatici?
-Risposta: I pedali Clipless sono stati il ​​frutto dell'ingegno dell'azienda francese Look che ha preso la tecnologia che avevano sviluppato per lo sci e l'ha applicata al ciclismo negli anni '80.
-
-Domanda: Quanto devo regolare la tensione delle tacchette?
-Risposta: Quando si adattano le tacchette alle scarpe, è consentito un certo grado di regolazione che consente di spostare la tacchetta in avanti, indietro o ruotarla a sinistra o a destra.
-
-Domanda: I ciclisti si depilano?
-Risposta: è vero, tantissimi ciclisti si depilano la gambe. Molti lo fanno per un fattore estetico o per migliorare l'aerodinamicità
-
-Domanda: Perché i ciclisti indossano sempre indumenti aderenti?
-Risposta: Questa pratica viene seguita da chi reputa che un abbigliamento aderente offra maggiore aerodinamica.
-
-Domanda: E’ vero che stando in fila indiana durate meno fatica?
-Risposta: Sì è vero, questa tecnica si chiama “stare a ruota”. Ci permette di alternarci in una posizione coperta, dietro a qualcuno che ci fa da apripista e “taglia” l’aria. Questo permette di risparmiare in media il 30% delle energie.
-
-Domanda: Come proteggere il volto e la testa in bicicletta ?
-Risposta: Ci sono alcuni elementi che sono definibili essenziali in bicicletta per poter proteggere il volto e il collo dal freddo che in bici inevitabilmente ci raffredda e ci viene incontro.
-
-Domanda: Quale tipologia di bicicletta è la più adatta per fare escursioni in bici?
-Risposta: Per iniziare ad effettuare escursioni facili e di ridotta lunghezza è sufficiente una bicicletta robusta ed affidabile, dotata del cambio posteriore a 6 o più rapporti, di portapacchi posteriore per fissare delle borse laterali o un piccolo zaino e con freni efficienti.
-
-Domanda: Quale è l'abbigliamento più adatto?
-Risposta: Un buon casco leggero e confortevole. Numerosi studi hanno dimostrato che l'uso del casco permette di limitare i traumi cranici in caso di caduta. Inoltre i guanti da ciclista preservano le mani dalle vibrazioni del manubrio e da eventuali abrasioni derivanti da innocue cadute.
-
-Domanda: Cosa portare con sé durante una gita in bici?
-Risposta: Per escursioni di una sola giornata occorre portare con se, nelle apposite borse laterali, una mantellina parapioggia. Una sufficiente riserva d'acqua è sempre necessaria: una o meglio due borracce devono equipaggiare la nostra bici.
+Domanda: qual'e la lunghezza di un velodromo?
+Risposta: Circa 400 metri.
 
 Domanda:

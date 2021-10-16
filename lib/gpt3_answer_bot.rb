@@ -1,8 +1,10 @@
 require_relative "../env"
 
 class GPT3AnswerBot
-  ENGINE = "davinci" # text generation / compleition / conversation
+  # ENGINE = "davinci" # text generation / compleition / conversation
+  ENGINE = "davinci-instruct-beta" # answering (beta)
   # ENGINE = "davinci-codex" # code generation / stackoveflow-like answers / code completion
+  # engine: custom - based on curie engine (fine tuning)
 
   attr_reader :question
 

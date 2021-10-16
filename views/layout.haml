@@ -6,20 +6,53 @@
   / mobile meta tags
   %meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
   %meta{:content => "http://ai_playground.org/images/og_ai_playground.png", :property => "og:image"}/
+  :javascript
+    // autoplay audio hack
+
+    window.audioTag = null
+    window.executed = false
+
+    const simulateClick = function (elem) {
+    	const evt = new MouseEvent('click', {
+    		bubbles: true,
+    		cancelable: true,
+    		view: window
+    	});
+    	const canceled = !elem.dispatchEvent(evt)
+    }
+
+    window.addEventListener('DOMContentLoaded', (event) => {
+      window.audioTag = document.querySelector("audio.audio")
+      window.audioTag.addEventListener("ended", () => {
+        window.executed = true
+      })
+      const someLink = document.querySelector('body')
+      simulateClick(someLink)
+    })
+
+    window.autoplayAudio = (evt) =>  {
+      if (window.executed) return
+      const audioTag = window.audioTag
+      audioTag.play()
+      // const audioPlaying = !audioTag.paused || audioTag.currentTime >= 0 || audioTag.started
+      const audioPlaying =  audioTag.started
+      if (audioPlaying) window.executed = true
+    }
   %body
-    / bulma hero
-    .hero.is-primary
-      .hero-body
-        %h1.title Esperto Ciclista AI
-        %h2.subtitle
-          Esperto Ciclista basato sull'AI GPT3 di OpenAPI (Davinci machine learning engine)
-      -# .hero-foot
-      -#   %a.button{ href: "/" } Ask a Question
-      -#   %a.button{ href: "/#soon" } Train the AI
-      -#   -# %a.button{ href: "/login" } Login
-      -#   -# %a.button{ href: "/register" } Register
+    .container-audio-autoplay{ onmouseover: "window.autoplayAudio()" }
+      / bulma hero
+      .hero.is-primary
+        .hero-body
+          %h1.title Esperto Ciclista AI
+          %h2.subtitle
+            Esperto Ciclista basato sull'AI GPT3 di OpenAPI (Davinci machine learning engine)
+        -# .hero-foot
+        -#   %a.button{ href: "/" } Ask a Question
+        -#   %a.button{ href: "/#soon" } Train the AI
+        -#   -# %a.button{ href: "/login" } Login
+        -#   -# %a.button{ href: "/register" } Register
 
-    .content
-      = yield
+      .content
+        = yield
 
-      .s100
+        .s100
