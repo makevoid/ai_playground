@@ -25,7 +25,7 @@ class GPT3Davinci
         max_tokens: MAX_TOKENS,
         stop: STOP_TOKENS,
         # opts:
-        temperature:       0.6,
+        temperature:       0.3,
         top_p:             1,
         frequency_penalty: 0,
         presence_penalty:  0,
