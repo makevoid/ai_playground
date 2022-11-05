@@ -1,3 +1,4 @@
 env_secrets.rb
 .rake_tasks~
 public/wavenet/*.mp3
+.DS_Store
